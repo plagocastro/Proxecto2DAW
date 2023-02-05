@@ -1,0 +1,19 @@
+miCallBack([
+    {
+    "nombre":"Comida 1",
+    "descripcion":"Carne y arroz",
+    "ingredientes":"Carne y arroz",
+    "precio":"26.95€"
+},
+{
+    "nombre":"Comida 2",
+    "descripcion":"Pescado con salsa de soja",
+    "ingredientes":"Pescado, leche, soja",
+    "precio":"26.95€"
+},
+{
+    "nombre":"Comida 3",
+    "descripcion":"Patas de cangrejo",
+    "ingredientes":"Cangrejo",
+    "precio":"26.95€"
+}]);

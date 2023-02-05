@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Restaurant Home Page</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+</head>
+<body>
+<main>
+<header>
+  <div class="menu">
+    <div class="contenedor">
+      <p class="logo">Restaurante Paco</p>
+      <img src="imagenes/menu.png" class="menu-icon" alt="">
+      <nav>
+        <ul>
+          <li><a href="">Pagina Principal</a></li>
+          <li><a href="">Precios</a></li>
+          <li><a href="">Sobre Nosotros</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section id="intro">
+  <div class="contenedor">
+    <div class="contenedor-titulo">
+      <div class="titulo">
+        <h1>Comida de calidad</h1>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architectoeaque ipsa quae ab illo inventore.</p>
+        <div class="botones">
+          <button class="menu" id="menu">VER MENU</button> 
+          <button class="btn-abrir-popup" id="btn-abrir-popup">RESERVAR</button>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3>RESERVA</h3>
+				<h4>deja tus datos para completar la reserva.</h4>
+				<form action="">
+					<div class="contenedor-inputs">
+						<input type="nombre" placeholder="Nombre">
+            <input type="telefono" placeholder="Teléfono">
+					</div>
+					<input type="submit" class="btn-submit" value="Reserva">
+				</form>
+			</div>
+		</div>
+  </div>
+</section>
+
+<section id="our-story">
+  <div class="contenedor">
+    <div class="izquierda">
+      <p class="our-story">HISTORIA</p>
+      <hr>
+      <h2>Bienvenido a Paco</h2>
+      <p class="texto">Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+    </div>
+    <div class="derecha">
+      <img src="imagenes/story.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+
+<section id="menu">
+  <div class="contenedor">
+
+    <div class="linea1">
+
+      <div class="texto">
+        <ul>
+          <li class="precio">26.95€</li>
+          <li class="titulo">Comida-1</li>
+          <li class="parrafo">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</li>
+        </ul>
+      </div>
+
+      <div class="texto" id="texto-2">
+        <ul>
+          <li class="precio">26.95€</li>
+          <li class="titulo">Comida-2</li>
+          <li class="parrafo">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="linea2">
+
+    <div class="texto" style="width: 30%;" id="ultimo">
+      <ul>
+        <li class="precio">26.95€</li>
+        <li class="titulo">Comida-3</li>
+        <li class="parrafo">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="contenedor">
+    <p class="titulo">OPINIONES</p>
+    <hr>
+    <h2>Que dice la gente?</h2>
+    <div class="contenedor-testimonials">
+
+      <div class="testimonial">
+        <img src="imagenes/estrellas.png" alt="">
+        <h3>“Buen encuentro”</h3>
+        <p class="texto">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ante eu lectus ornare porta.“</p>
+        <p class="nombre">Divi</p>
+      </div>
+
+      <div class="testimonial">
+        <img src="imagenes/estrellas.png" alt="">
+        <h3>“A Great Find”</h3>
+        <p class="texto">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ante eu lectus ornare porta.“</p>
+        <p class="nombre">Divi</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="contenedor">
+    <div class="izquierda">
+      <h2>Horario</h2>
+      <ul>
+        <li>LUN – VIE</li>
+        <li>10:00am – 13:00pm</li>
+        <li>16:00pm – 22:30pm</li>
+      </ul>
+      <ul>
+        <li>SAB</li>
+        <li>15:00pm – 22:30pm</li>
+      </ul>
+      <ul id="tercero">
+        <li>DOM</li>
+        <li>Pechado</li>
+      </ul>
+      <a href="">HAZ TU RESERVA</a>
+    </div>
+    <div class="derecha">
+      <H3>Contactanos</H3>
+      <p>No me seas tímido, deja por aqui tus preguntas!</p>
+      <a href="">CONTACTANOS</a>
+      <h3 class="news">Deja tus datos</h3>
+      <p>Deja tus datos para un posible contacto</p>
+      <form action="">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Apellido">
+        <input type="text" placeholder="Email">
+        <input type="submit" value="CONTACTANOS">
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <div id="results"></div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script>
+  const menu = document.getElementById("menu");
+
+  menu.addEventListener("click", function() {
+    const menuData = [
+      {
+        "nombre":"Comida 1",
+        "descripcion":"Carne y arroz",
+        "ingredientes":"Carne y arroz",
+        "precio":"26.95€"
+      },
+      {
+        "nombre":"Comida 2",
+        "descripcion":"Pescado con salsa de soja",
+        "ingredientes":"Pescado, leche, soja",
+        "precio":"26.95€"
+      },
+      {
+        "nombre":"Comida 3",
+        "descripcion":"Patas de cangrejo",
+        "ingredientes":"Cangrejo",
+        "precio":"26.95€"
+      }
+    ];
+
+    let menuList = "";
+    menuData.forEach(item => {
+      menuList += `<p>${item.nombre}: ${item.descripcion} - ${item.precio}</p>`;
+    });
+
+    Swal.fire({
+      title: "Menú",
+      html: menuList,
+      showCloseButton: true,
+      showConfirmButton: false
+    });
+  });
+</script>
+</main>
+<div class="aviso-cookies" id="aviso-cookies"> 
+  <img class="galleta" src="imagenes/cookie.svg" alt="Galleta">
+  <h3 class="titulo">Cookies</h3>
+  <p class="parrafo">Utilizamos cookies apropiadas y de terceros</p>
+  <button class="boton" id="btn-cerrar-cookies">De acuerdo</button>
+  <a class="enlace" href="aviso-cookies.html">Aviso de cookies</a>
+</div>
+<div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+<script src="aviso-cookies.js"></script>
+</body>
+</html>
+
+
